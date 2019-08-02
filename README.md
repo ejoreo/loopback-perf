@@ -1,3 +1,9 @@
-# getting-started
+This repository is a basic Loopback application generated with the LoopBack 4 CLI.
 
-[![LoopBack](https://github.com/strongloop/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
+Run `npm start` from the root directory to boot the application. 
+
+Visit http://127.0.0.1:3000/hello to see ‘Hello world!’
+
+To benchmark this application with [Apache Bench](https://www.tutorialspoint.com/apache_bench/index.htm), run `ab -k -n 50000 -c 100 -t 20 127.0.0.1:3000/hello` in a separate terminal window. .
+
+This repository is meant to support this [article from NodeSource](https://nodesource.com).
